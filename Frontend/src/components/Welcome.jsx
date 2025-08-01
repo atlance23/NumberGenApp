@@ -16,12 +16,10 @@ export default function Welcome() {
     };
 
     return (
-        <section id="welcome">
-            <div>
-                <div>
-                    <h2>{(number) ? `The number is ${number}` : "Click the button!"}</h2>
-                    <button onClick={fetchNumber}>Generate Number</button>
-                </div>
+        <section className="homeHero">
+            <div id="numberGen">
+                <h2 className="font-bold" id="number" style={{fontSize: '32px'}}>{(number) ? `The number is: ${number}` : "Click the button!"}</h2>
+                <button className="bg-black-500 text-white font-bold mt-8 py-1 px-4 rounded-full" onClick={fetchNumber}>Generate Number</button>
             </div>
         </section>
     );

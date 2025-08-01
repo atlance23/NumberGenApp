@@ -1,7 +1,5 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -39,4 +37,35 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.homeHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  background-image: linear-gradient(rgba(2, 168, 173, 0.6), rgba(143, 0, 209, 0.6)), url('./assets/cherryTreeBackground.avif');
+}
+
+#numberGen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  max-width: 400px;
+  min-width: 0;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;;
+}
+
+#number {
+  color: #333333;
 }

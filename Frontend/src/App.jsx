@@ -8,7 +8,9 @@ function App() {
 
   return (
     <>
-      <Welcome />
+      <main>
+        <Welcome />
+      </main>
     </>
   )
 }
